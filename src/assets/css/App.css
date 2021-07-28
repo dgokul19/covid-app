@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+
+            /* Theme CSS */
+  body {
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Open Sans Condensed', sans-serif;
+    overflow-x: hidden;
+  }
+  a, a:hover,a:focus {
+    text-decoration: none;
+  }
+  ul {
+    list-style: none;
+  }
+  img {
+    width: 100%;;
+  }
+  input,textarea,button,div,span{
+    outline : none
+  }
+  .relative {
+    position: relative;
+  }
+  .primaryColor {
+    color: #909090 !important;
+  }
+  .primaryConfirmed {
+    color: #ff073a !important;
+  }
+  .primaryActive {
+    color: #007bff !important;
+  }
+  .primaryDeceased {
+    color: #909090 !important;
+  }
+  .primaryRecovered {
+    color: #28a745 !important;
+  }
+  .paddingTop0 {
+    padding-top : 0px !important;
+  }
+  .pointer {
+    cursor : pointer !important;
+  }
+            /* Theme CSS */
+.container_self {
+  background-color: #f1f1f1;
+  height: 100%;
+}
+.sideNavBar {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 118px;
+}
+.menuIc {
+  width: 70px;
+  height: 2px;
+  background-color: #fff;
+  display: block;
+}
+.app-icon-list li {
+  height : 75px;
+}
+
+.app-icon-list li a {
+  color: #909090;
+}
+.app-icon-list li.active a {
+  color:#2e7ace;
+}
+.app-name {
+  width: 100%;
+  padding: 15px;
+}
+.mainBoard {
+  height: 100%;
+  padding-top: 7em;
+  display: flex;
+}
+.search-app label {
+  display: block;
+  color: #909090;
+  font-weight: 300;
+  font-size: 12px;
+  text-align: center;
+  letter-spacing: 1px;
+}
+.search-app input {
+  width: 480px;
+  height: 60px;
+  background-color: transparent;
+  box-shadow: 0px 3px 3px -2px rgba(0,0,0,0.2), 0px 3px 4px 0px rgba(0,0,0,0.14), 0px 1px 8px 0px rgba(0,0,0,0.12);
+  border: none;
+  margin-top: 1.4em;
+  border-radius: 5px;
+  text-indent: 40px;
+}
+.icon-search {
+  position: absolute;
+  top: 57px;
+  left: 15px;
+  color: #909090;
+}
+.date-place-notify {
+  margin-top: 1em;
+}
+.date-place-notify ul {
+  width: 480px;
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+}
+.date-place-notify li {
+  display: inline-block;
+  height: 36px;
+  padding : 0px 7px;
+  font-size: 11px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  color: #909090 !important;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+.date-place-notify li.icons-nots span{
+  vertical-align: middle;
+  color: #909090 !important;
+}
+.date-place-notify li.icons-nots .MuiSvgIcon-root{
+  font-size: 18px;
+}
+
+.total-cases-info ul{
+  width: 480px;
+  padding : 0px;
+  display: flex;
+  justify-content: space-between;
+}
+.total-cases-info li {
+  text-align: center;
+}
+.total-cases-info li h5{
+    margin-top: 0px;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+.total-cases-info li h6 {
+  height : 28px;
+  opacity: .6;
+  margin-bottom: 10px;
+  font-size: 12px;
+}
+.total-cases-info li h6 svg{
+  font-size: 12px;
+}
+.total-cases-info li h3 {
+  margin-top: 0px;
+  font-size: 24px;
+}
+.state-table-list {
+  margin : 1em 0px 2em;
+}
+
+.state-table-list th{
+  color : rgba(165, 42, 42, 0.76);
+  font-weight: bold;
+}
+.state-table-list td{
+  color : #909090;
+}
+.notifTitle h2{
+  font-weight: bold;
+}
+.notifList {
+  flex-direction: column;
+  align-items: flex-start !important;
+  background-color: #f5f5f5;
+  margin-bottom: 8px;
+  transition: 0.4s ease-in;
+}
+.notifList:hover {
+  background-color: #e5e5e5;
+}
+.notifList label{
+  font-size: 11px;
+  color: #909090;
+  font-weight: 600;
+  letter-spacing: .5px;
+}
+.notifList span{
+  color: #8c8c8c;
+  font-weight: 600;
+  letter-spacing: .5px;
+}
+.modalNotify {
+  min-width: 550px;
+}
+.listState {
+  cursor: pointer;
+}
+.stateContainer {
+  height : 100vh;
+  padding : 20px;
+  background-color: beige;
+  overflow-y: auto;
+}
+.closeState {
+  position: absolute;
+  top : 0px;
+  right : 0px;
+  color: burlywood;
+  cursor: pointer;
+}
+.stateDetailTitle h2 {
+  color: brown;
+  margin-top: 0px;
+}
+.sorting-init{
+  position: absolute;
+  display: flex;
+  justify-content: flex-end;
+  right : 0px;
+  top: 21px;
+}
+.sorting-init svg{
+  font-size : 18px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+ul.stateCaseDets {
+  margin-left: 3px;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+}
+ul.stateCaseDets li {
+  width: 50%;
+}
+ul.stateCaseDets li h4{
+  margin-bottom: 0px;
+  color: brown;
+  font-weight: 400;
+}
+ul.stateCaseDets li span{
+  font-size: 12px;
+}
+.dateFilters {
+  width: 100%;
+  /* background-color: cadetblue; */
+  height: 90px;
+  display: flex;
+  flex-grow: 1;
+  transition : 0.2ms ease-in-out all;
+}
+.dateFilters .MuiTabs-scroller button.MuiTab-root {
+  text-transform: capitalize;
+  padding: 3px 0px;
+  min-height: unset;
+  font-size: 11px;
+  color: #333;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.dateFilters .MuiTabs-scroller button.MuiTab-root.Mui-selected {
+  color: #333;
+}
+
+.dateFilters .MuiTabs-scroller .MuiTabs-indicator {
+  background: transparent;
+}
+.dateFilters .MuiTabScrollButton-vertical {
+  height : 18px;
+}
+.tabsDate {
+  margin: 0px auto;
+}
+.date-filter svg.active {
+  color: #28a745;
+}
